@@ -70,7 +70,29 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+}
+li {
+    display: inline;
+}
+li {
+    float: left;
+}
+a {
+    display: block;
+    padding: 8px;
+    background-color: white;
+}
+li a:hover {
+    background-color: #111;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
