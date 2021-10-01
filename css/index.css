@@ -60,39 +60,46 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: bold;
 }
-
 p {
     line-height: 1.4;
 }
-
 .container {
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
 }
+header{
+    background-color: white;
+}
+.logo-image{
+    float: left;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-}
-ul.nav-bar{
+    overflow: hidden;
+    background-color: white;
+    padding-left: 70px;
+    padding-right: 150px;
     display: flex;
     justify-content: space-evenly;
-}
-li {
-    display: inline;
-}
+}   
 li {
     float: left;
-}
-a {
+}      
+li a {
     display: block;
-    padding: 8px;
-    background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 li a:hover {
-    background-color: #111;
+    background-color: #dddddd;
 }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,10 +108,16 @@ li a:hover {
     border-bottom: 1px dashed black;
 }
 
+.header-img{
+    width: 100%;
+    height: auto;
+    padding-top: 4%;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    padding-top: 4%;
 }
 
 .middle-content {
@@ -126,14 +139,41 @@ li a:hover {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.teal{
+    background: teal;
+}
+.gold{
+    background: gold;
+}
+.cadetblue{
+    background: cadetblue;
+}
+.coral{
+    background: coral;
+}
+.crimson{
+    background: crimson;
+}
+.forestgreen{
+    background: forestgreen;
+}
+.darkorchid{
+    background: darkorchid;
+}
+.hotpink{
+    background: hotpink;
+}
+.indigo{
+    background: indigo;
+}
+.dodgerblue{
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -165,4 +205,55 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About section */
+.about-img{
+    width: auto;
+    height: auto;
+    padding-top: 4%;
+}
+
+.about-top{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: 1px dashed black;
+}
+.about-p{
+    margin-bottom: 20px;
+}
+.four-buttons{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.four-buttons h2{
+    margin-top: 10px;
+}
+.four-buttons p{
+    margin-bottom: 10px;
+}
+.four-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+}
+button{
+    margin-bottom: 4%;
+}
+img{
+    margin-top: 4%;
+}
+div.Work{
+    border-bottom: 2px dashed black;
+}
+.strategy{
+    border-bottom: 2px dashed black;
+}
+div.places{
+    border-bottom: 2px dashed black;
+}
+div.collaboration{
+    border-bottom: 2px dashed black;
 }
