@@ -238,6 +238,7 @@ footer nav a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-bottom: 5%;
+    padding-top: 5%;
 }
 button{
     margin-bottom: 4%;
@@ -256,4 +257,7 @@ div.places{
 }
 div.collaboration{
     border-bottom: 2px dashed black;
+}
+.work-together{
+    margin-bottom: 5%;
 }
